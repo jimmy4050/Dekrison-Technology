@@ -1,4 +1,3 @@
-
 import React from 'react';
 import AnimatedSection from '../components/AnimatedSection';
 import { Target, Eye, Users } from 'lucide-react';
@@ -30,7 +29,7 @@ const AboutPage: React.FC = () => {
           </div>
           <div className="order-1 md:order-2">
             <img 
-              src="https://images.unsplash.com/photo-1559827291-72ee739d0d95?q=80&w=1974&auto=format&fit=crop" 
+              src="https://picsum.photos/seed/shenzhen-skyline/800/600" 
               alt="Mountain landscape at night" 
               className="rounded-lg shadow-xl w-full h-auto"
             />

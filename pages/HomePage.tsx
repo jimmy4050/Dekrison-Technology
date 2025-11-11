@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-[60vh] md:h-[80vh] bg-cover bg-center text-white flex items-center justify-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507525428034-b723a996f6ea?q=80&w=2070&auto=format&fit=crop')" }}>
+      <section className="relative h-[60vh] md:h-[80vh] bg-cover bg-center text-white flex items-center justify-center" style={{ backgroundImage: "url('https://picsum.photos/seed/hero-background/1920/1080')" }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 text-center px-4">
            <motion.div
@@ -94,7 +94,7 @@ const HomePage: React.FC = () => {
       <AnimatedSection className="py-20 bg-[#F8F9FA]">
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <img src="https://images.unsplash.com/photo-1534533983685-c5b8b21586f4?q=80&w=1974&auto=format&fit=crop" alt="Team working on electronics" className="rounded-lg shadow-xl w-full" />
+            <img src="https://picsum.photos/seed/teamwork/800/600" alt="Team working on electronics" className="rounded-lg shadow-xl w-full" />
           </div>
           <div className="text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2342] mb-4">Pioneering Outdoor Illumination</h2>

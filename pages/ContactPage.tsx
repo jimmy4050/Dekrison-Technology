@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import AnimatedSection from '../components/AnimatedSection';
-import { Mail, MapPin, Building } from 'lucide-react';
+import { Mail, MapPin, Building, Smartphone } from 'lucide-react';
 
 const ContactPage: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -25,7 +24,7 @@ const ContactPage: React.FC = () => {
     <div className="relative bg-[#F8F9FA] py-20 overflow-hidden">
         <div 
             className="absolute inset-0 bg-cover bg-center opacity-5"
-            style={{ backgroundImage: `url('https://images.unsplash.com/photo-1519677100203-a0e668c92439?q=80&w=2070&auto=format&fit=crop')` }}
+            style={{ backgroundImage: `url('https://picsum.photos/seed/contact-background/1920/1080')` }}
         ></div>
         <div className="container mx-auto px-6 relative z-10">
             <AnimatedSection className="text-center">
@@ -56,7 +55,14 @@ const ContactPage: React.FC = () => {
                         <div className="mt-1 p-3 bg-[#FFD447]/20 rounded-full"><Mail className="h-6 w-6 text-[#FFD447]" /></div>
                         <div>
                             <h3 className="text-xl font-semibold text-[#0A2342]">Email</h3>
-                            <a href="mailto:info@dekrisontech.com" className="text-gray-600 hover:text-[#FFD447] transition-colors">info@dekrisontech.com</a>
+                            <a href="mailto:aleenaguan20@gmail.com" className="text-gray-600 hover:text-[#FFD447] transition-colors">aleenaguan20@gmail.com</a>
+                        </div>
+                    </div>
+                    <div className="flex items-start space-x-4">
+                        <div className="mt-1 p-3 bg-[#FFD447]/20 rounded-full"><Smartphone className="h-6 w-6 text-[#FFD447]" /></div>
+                        <div>
+                            <h3 className="text-xl font-semibold text-[#0A2342]">WeChat</h3>
+                            <p className="text-gray-600">+86 18688948070</p>
                         </div>
                     </div>
                 </AnimatedSection>
