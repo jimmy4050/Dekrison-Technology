@@ -8,11 +8,14 @@ import CoreValuesPage from './pages/CoreValuesPage';
 import ProductsPage from './pages/ProductsPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import ContactPage from './pages/ContactPage';
+import ScrollToTop from './components/ScrollToTop';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
+      <ScrollToTop />
+      <div className="flex flex-col min-h-screen bg-[#F8F9FA] dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300">
         <Navbar />
         <main className="flex-grow">
           <Routes>
@@ -25,6 +28,7 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
+        <ScrollToTopButton />
       </div>
     </Router>
   );

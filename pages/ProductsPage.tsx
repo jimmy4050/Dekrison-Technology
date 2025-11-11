@@ -43,16 +43,16 @@ export const productsData: Product[] = [
 ];
 
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
-  <div className="bg-white rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
+  <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
     <div className="relative h-64 overflow-hidden">
-      <img src={product.imageUrl} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+      <img src={product.imageUrl} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 ease-in-out" />
     </div>
     <div className="p-6 flex flex-col flex-grow">
-      <span className="text-sm text-gray-500">{product.category}</span>
-      <h3 className="text-xl font-bold text-[#0A2342] mt-1 mb-2">{product.name}</h3>
-      <p className="text-gray-600 mb-4 h-20 overflow-hidden flex-grow">{product.description}</p>
+      <span className="text-sm text-gray-500 dark:text-gray-400">{product.category}</span>
+      <h3 className="text-xl font-bold text-[#0A2342] dark:text-white mt-1 mb-2">{product.name}</h3>
+      <p className="text-gray-600 dark:text-gray-300 mb-4 h-20 overflow-hidden flex-grow">{product.description}</p>
       <div className="mt-auto text-right">
-        <Link to={`/products/${product.id}`} className="bg-[#0A2342] text-white px-4 py-2 rounded-md hover:bg-[#FFD447] hover:text-[#0A2342] transition-colors font-semibold">
+        <Link to={`/products/${product.id}`} className="bg-[#0A2342] text-white px-4 py-2 rounded-md hover:bg-[#FFD447] hover:text-[#0A2342] dark:bg-[#FFD447] dark:text-[#0A2342] dark:hover:bg-yellow-300 transition-colors font-semibold">
           View Details
         </Link>
       </div>
@@ -62,11 +62,11 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
 
 const ProductsPage: React.FC = () => {
   return (
-    <div className="bg-[#F8F9FA] py-20">
+    <div className="bg-[#F8F9FA] dark:bg-gray-900 py-16 md:py-20">
       <div className="container mx-auto px-6">
         <AnimatedSection className="text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#0A2342]">Our Products</h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-16">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#0A2342] dark:text-white">Our Products</h1>
+          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto mb-16">
             Engineered for performance, built for adventure. Explore our range of premium lighting solutions.
           </p>
         </AnimatedSection>
