@@ -1,0 +1,81 @@
+
+[
+  {
+    "id": 1,
+    "name": "Aurora Camping Light",
+    "image": "https://picsum.photos/seed/aurora/800/600",
+    "description": "Rechargeable LED camping lamp with adjustable brightness and a convenient hanging hook, perfect for lighting up any campsite.",
+    "features": [
+      "USB-C fast charging capability",
+      "Water-resistant (IP65 rated)",
+      "Up to 20 hours of continuous battery life",
+      "3 light modes: Warm, Cool, and Mixed"
+    ],
+    "certifications": ["CE", "FCC", "RoHS"]
+  },
+  {
+    "id": 2,
+    "name": "TrailMaster Flashlight",
+    "image": "https://picsum.photos/seed/trailmaster/800/600",
+    "description": "A compact and ultra-bright tactical flashlight designed for hiking, emergencies, and everyday carry.",
+    "features": [
+      "Powerful 1000 lumens maximum output",
+      "Durable aerospace-grade aluminum body",
+      "Dual light modes: Focused Spot & Wide Flood",
+      "Pocket clip for easy portability"
+    ],
+    "certifications": ["CE", "RoHS"]
+  },
+  {
+    "id": 3,
+    "name": "Nova Portable Lantern",
+    "image": "https://picsum.photos/seed/nova/800/600",
+    "description": "A versatile, foldable LED lantern with a solar charging option and a magnetic base for hands-free use.",
+    "features": [
+      "Dual charging: Solar panel and USB input",
+      "Lightweight, durable, and collapsible design",
+      "Perfect for camping, power outages, and emergency kits",
+      "Can be used as a power bank to charge devices"
+    ],
+    "certifications": ["CE", "FCC"]
+  },
+  {
+    "id": 4,
+    "name": "Pathfinder Headlamp",
+    "image": "https://picsum.photos/seed/pathfinder/800/600",
+    "description": "Lightweight, rechargeable, with 5 distinct light modes including a red light for night vision.",
+    "features": [
+        "Feather-light at only 70 grams",
+        "Rechargeable via Micro-USB",
+        "5 modes: High, Medium, Low, Strobe, Red",
+        "Pivoting head to direct light"
+    ],
+    "certifications": ["CE", "RoHS"]
+  },
+  {
+    "id": 5,
+    "name": "GoBeam LED Strip",
+    "image": "https://picsum.photos/seed/gobeam/800/600",
+    "description": "Flexible and magnetic, this portable LED strip is perfect for illuminating tents, awnings, and workspaces.",
+    "features": [
+        "1.5 meter flexible LED strip",
+        "Strong magnetic backing and hanging loops",
+        "USB-powered for use with any power bank",
+        "Dimmable brightness control"
+    ],
+    "certifications": ["CE", "FCC"]
+  },
+  {
+    "id": 6,
+    "name": "SolarFlare Emergency Light",
+    "image": "https://picsum.photos/seed/solarflare/800/600",
+    "description": "A rugged, solar-powered emergency light with a built-in power bank to charge your essential devices.",
+    "features": [
+        "High-efficiency solar panel",
+        "5000mAh internal battery / power bank",
+        "SOS flashing mode for emergencies",
+        "Waterproof and drop-resistant"
+    ],
+    "certifications": ["CE", "FCC", "RoHS"]
+  }
+]

@@ -1,0 +1,4 @@
+
+This directory is for image assets.
+For this project, placeholder images from https://picsum.photos are used directly in the code.
+Replace them with your local assets and update the src paths in the components.
