@@ -20,12 +20,17 @@ const AboutPage: React.FC = () => {
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2342] dark:text-white mb-6">Our Story</h2>
-            <p className="text-gray-600 dark:text-gray-400 text-lg mb-4">
-              Dekrison Technology was born from a passion for adventure and a recognition of the need for reliable, high-quality outdoor lighting. Based in the global tech hub of Shenzhen, China, we've dedicated ourselves to engineering lighting products that don't just illuminate—they inspire confidence.
-            </p>
-            <p className="text-gray-600 dark:text-gray-400 text-lg">
-              From rugged flashlights that pierce the darkest nights to ambient camping lights that create a home away from home, every Dekrison product is a testament to our commitment to quality, innovation, and the spirit of exploration.
-            </p>
+            <div className="space-y-4 text-gray-600 dark:text-gray-400 text-lg">
+              <p>
+                At Dekrison Technology, we are passionate about creating reliable lighting solutions for outdoor explorers around the world. Based in Shenzhen, China’s innovation hub for consumer electronics, we specialize in camping lights, flashlights, and portable LED lighting products designed to make every adventure brighter and safer.
+              </p>
+              <p>
+                We work closely with certified manufacturing partners whose products meet CE, FCC, and RoHS standards, ensuring both performance and safety. Our mission is simple — to bring quality, functionality, and style together in every light we deliver.
+              </p>
+              <p>
+                Whether for night camping, hiking, or daily use, our products are designed to illuminate your journey anytime, anywhere.
+              </p>
+            </div>
           </div>
           <div className="order-1 md:order-2">
             <img 

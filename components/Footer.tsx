@@ -22,6 +22,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold text-white mb-4 uppercase tracking-wider">Links</h3>
             <ul className="space-y-2">
               <li><Link to="/about" className="hover:text-[#FFD447] transition-colors">About Us</Link></li>
+              <li><Link to="/profile" className="hover:text-[#FFD447] transition-colors">Company Profile</Link></li>
               <li><Link to="/products" className="hover:text-[#FFD447] transition-colors">Products</Link></li>
               <li><Link to="/values" className="hover:text-[#FFD447] transition-colors">Core Values</Link></li>
               <li><Link to="/contact" className="hover:text-[#FFD447] transition-colors">Contact</Link></li>
